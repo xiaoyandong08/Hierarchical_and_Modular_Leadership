@@ -6,17 +6,17 @@
 
 In this work, we analyze high-resolution 3D trajectory data from two large-flocking species. The [jackdaw](https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0450) dataset consists of 3D trajectories of experimentally elicited mobbing events, recorded near their nest-boxes during the breeding season (May-July) as jackdaws responded to a model predator with playbacks of pre-recorded anti-predator recruitment calls. The [swift](https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0450) dataset comprises 3D tracks reconstructed from video recordings of a flock of 1800 chimney swifts as they entered an overnight roost in Raleigh, USA. We collect a total of 311 tracks, with group sizes ranging from 30 to 196 individuals and turning angles ranging from 80° to 260° (Fig.1c,d and Supplementary Sec.1 for detailed information). 
 
-By analyzing collective turns in two large-scale bird flocks, i.e., jackdaws (*Corvus monedula*) and swifts (*Chaetura pelagica*), we identify two distinct turning modes. In some events, the entire flock changes direction nearly simultaneously, exhibiting a highly coordinated, near-instantaneous response (Fig.1a, a flock of 96 birds). This is analogous to the previously reported patterns of collective turning characterized by equal-radii or parallel-paths. In other events, although the turn lacks apparent global synchrony, fine-grained temporal analysis reveals a wave-like, sequential propagation: a subset of individuals within the flock turns first, followed by successive waves of individuals initiating turns in their vicinity (Fig.1b, a flock of 70 birds). 
+By analyzing collective turns in two large-scale bird flocks, i.e., jackdaws (*Corvus monedula*) and swifts (*Chaetura pelagica*), we identify two distinct turning modes. In some events, the entire flock changes direction nearly simultaneously, exhibiting a highly coordinated, near-instantaneous response (Fig.1a, a flock of 96 birds). This is analogous to the previously reported patterns of collective turning characterized by equal-radii or parallel-paths. In other events, although the tu s rn lacks apparent global synchrony, fine-grained temporal analysis reveals a wave-like, sequential propagation: a subset of individuals within the flock turns first, followed by successive waves of individuals initiating turns in their vicinity (Fig.1b, a flock of 70 birds). 
 
 ## 2. Detecting hierarchical and modular leadership
 
 - We provided MATLAB codes to reproduce our main results of detecting hierarchical and modular leadership, including 
-  - Fig.2: `Diagram_of_Fig2_for_HML.m` ; 
-  - Fig.3: `Diagram_of_Fig3_for_MS_network.m`; 
-  - SFig.23: `Diagram_of_SFig23_for_2timesModularity.m`;
-  - Supplementary Video 1: `Video_of_SupplementaryVideo1.m`;
-  - Supplementary Video 2: `Video_of_SupplementaryVideo2.m`;
-- We provided minimal dataset to reproduce the examples of bird flock that we showed in the main text, including
+  - Hierarchical and modular leadership during collective turning: `Diagram_of_Fig2_for_HML.m` ; 
+  - Cascading propagation of salient cues during collective turning: `Diagram_of_Fig3_for_MS_network.m`; 
+  - Hierarchical and modular leadership by 2-times modularity analysis: `Diagram_of_SFig23_for_2timesModularity.m`;
+  - Supplementary Video 1 for HML in a flock: `Video_of_SupplementaryVideo1.m`;
+  - Supplementary Video 2 for max-MS network in a flock: `Video_of_SupplementaryVideo2.m`;
+- We provided minimal dataset to reproduce the examples of bird flock that we showed in the main text:
   - The trajectory of bird flock with 70 birds is deposited in `group_05.mat`;
 
 ### Acknowledgements
